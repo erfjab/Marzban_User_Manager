@@ -25,7 +25,7 @@ clone_repository() {
         echo -e "\e[34mRemoving existing Marzban_User_Manager directory...\e[0m"
         rm -rf Marzban_User_Manager || { echo -e "\e[31mFailed to remove existing directory. Exiting...\e[0m"; exit 1; }
     fi
-    git clone https://github.com/erfjab/Marzban_User_Manager || { echo -e "\e[31mFailed to clone the repository. Exiting...\e[0m"; exit 1; }
+    git clone https://github.com/M03ED/Marzban_User_Manager || { echo -e "\e[31mFailed to clone the repository. Exiting...\e[0m"; exit 1; }
 }
 
 install_dependencies() {
