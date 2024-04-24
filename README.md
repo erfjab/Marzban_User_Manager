@@ -50,24 +50,5 @@ Now You Can Run Script With This Command
 ```
 python main.py
 ```
-
-# Additional Settings 🧩
-
-If You Dont Want Enter Your Server Information You Can Replace This Lines With Your Real Information 
-
-```bash
-username = input('Enter Your Username:')
-password = input('Enter Your Password:')
-DOMAIN = input('Enter Your Panel Domain (without https):')
-PORT = input('Enter Your Panel Port (1-65535):')
-```
-
-Example:
-```bash
-username = 'username'
-password = 'password'
-DOMAIN = 'domain.com'
-PORT = '12345'
-```
 # Contributors
 If You See A Bug Or You Have Idea To Make Script Better You Can Make Pull Request And Commit The Changes
