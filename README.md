@@ -1,28 +1,39 @@
-# Marzban_User_Manager
-
-<h2><a href="./README-fa.md">
+<p align="center">
+	<a href="./README_fa.md">
 	فارسی
-	</a></h2>
+	</a>
+</p>
 
-## Features
-- Multiplication Remaining Traffic For All Users
-- Increase And Decrease The Same Traffic To All Users
-- Increase And Decrease The Same Time From All Users
-- Remove Users Depend On Expire Date
+# Script Introduction
 
-# How To Use 💡
+This script is developed to facilitate your work with Marzban panel and manage your users. It provides the following features:
 
-First Enable Api In Your Marzban , 
-You Can Enable It By Adding DOCS=True To Your env File
+- Ability to increase/decrease users' traffic (in percentage or numeric values).
+- Ability to increase/decrease users' time (in numeric values).
+- Ability to deactivate/activate users in bulk.
+- Ability to delete users with custom filters in bulk.
+- Ability to get comprehensive user information with custom filters (number of users, user statuses, total usage, limit, lifetime usage).
 
-## Linux
+All these features can be applied to the following categories:
 
+- All users
+- Users of a specific admin
+- Users with a specific username prefix
+
+# How to Use the Script
+
+### Required Information
+
+- **Panel Username:** Enter the username of your sudo admin panel.
+- **Panel Password:** Enter the password of your sudo admin panel.
+- **Panel Domain:** Enter your panel domain according to the pattern (sub.domain.com).
+- **Panel Port:** Enter your panel's login port.
+
+### Linux (Recommended)
+
+Enter the following command to automatically install and run the script.
 ```bash
-git clone https://github.com/M03ED/Marzban_User_Manager
-cd Marzban_User_Manager
-wget -qO- https://bootstrap.pypa.io/get-pip.py | python3 -
-python3 -m pip install -r requirements.txt
-python3 main.py
+sudo bash -c "$(curl -sL https://github.com/M03ED/Marzban_User_Manager/raw/main/install.sh)"
 ```
 
 ## Windows
