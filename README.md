@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="./README_fa.md">
+	<a href="./README-fa.md">
 	فارسی
 	</a>
 </p>
