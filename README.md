@@ -28,6 +28,7 @@ All these features can be applied to the following categories:
 - **Panel Password:** Enter the password of your sudo admin panel.
 - **Panel Domain:** Enter your panel domain according to the pattern (sub.domain.com).
 - **Panel Port:** Enter your panel's login port.
+- **Panel SSL:** Enter 'y' if have ssl else enter 'n'.
 
 ### Linux (Recommended)
 
