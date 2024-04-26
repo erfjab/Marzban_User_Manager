@@ -28,7 +28,7 @@
 
 دستور زیر را وارد کنید تا اسکرپیت اتوماتیک نصب و اجرا شود.
 ```bash
-sudo bash -c "$(curl -sL https://github.com/M03ED/Marzban_User_Manager/raw/main/install.sh)"
+sudo bash -c "$(curl -sL https://github.com/erfjab/Marzban_User_Manager/raw/main/install.sh)"
 ```
 ### ویندوز
 
