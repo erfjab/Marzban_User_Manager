@@ -34,7 +34,7 @@ All these features can be applied to the following categories:
 
 Enter the following command to automatically install and run the script.
 ```bash
-sudo bash -c "$(curl -sL https://github.com/M03ED/Marzban_User_Manager/raw/main/install.sh)"
+sudo bash -c "$(curl -sL https://github.com/erfjab/Marzban_User_Manager/raw/main/install.sh)"
 ```
 
 ## Windows
